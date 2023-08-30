@@ -1,0 +1,4 @@
+char randchar()
+{
+	return 'a';
+}
