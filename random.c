@@ -1,4 +1,7 @@
+#include <time.h>
+#include <stdlib.h>
+
 char randchar()
 {
-	return 'a';
+	return (char) (rand() % 26 + 65);
 }
